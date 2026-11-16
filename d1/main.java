@@ -1,6 +1,11 @@
 class Main {
     public static void main(String[] args) {
-        System.out.println("Radhe Radhe");
-        System.out.println("Kaise ho ji");
+        MenuItem dosa = new MenuItem();
+        dosa.name = "Masala Dosa";
+        dosa.price = 120;
+        dosa.isVeg = true;
+
+        System.out.print("Menu Item:");
+        System.out.println(dosa.name + " " + dosa.price);
     }
 }
