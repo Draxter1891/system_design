@@ -9,6 +9,7 @@ public class Wallet {
     }
     public void setBalance(double balance){
         if(balance<0){
+            System.out.println("Balance can't be less than 0");
             this.balance = 0;
             return;  
         }

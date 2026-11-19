@@ -5,7 +5,7 @@ public class Main {
         // Wallet rohit = new Wallet(5000);
         // rohit.balance = -10000;
         Wallet rohit = new Wallet();
-        rohit.setBalance(5000);
+        rohit.setBalance(-5000);
         System.out.println(rohit.getBalance());
     }
 }
